@@ -17,7 +17,7 @@ from ..stack import qDlgStackTop
 from ..utils import addLayoutOrWidget
 from ..container import QDlgContainer
 
-from PyQt5.Qt import QGroupBox, QVBoxLayout
+from PyQt6.QtWidgets import QGroupBox, QVBoxLayout
 
 
 class Group(QDlgContainer):
