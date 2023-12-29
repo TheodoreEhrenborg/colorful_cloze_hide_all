@@ -1,7 +1,6 @@
-# Cloze (Hide All)
+# Cloze (Hide All) FIXED
 
-[![Donate via patreon](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/trgk)
-[![AnkiWeb page](https://img.shields.io/badge/AnkiWeb-addon-blue.svg)](https://ankiweb.net/shared/info/1709973686)
+[![AnkiWeb page](https://img.shields.io/badge/AnkiWeb-addon-blue.svg)](https://ankiweb.net/shared/info/838763277)
 
 This addon creates a new card type. On this card type, all clozes except what you're reviewing now are hidden with a yellow box.
 
