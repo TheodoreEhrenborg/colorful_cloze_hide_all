@@ -38,7 +38,7 @@ class MiniBrowser(QDialog):
         super().__init__(parent)
         mw.setupDialogGC(self)
 
-        self.setWindowFlags(Qt.Window)
+        self.setWindowFlags(Qt.WindowType.Window)
         self.setWindowModality(Qt.WindowModal)
 
         # Populate content
