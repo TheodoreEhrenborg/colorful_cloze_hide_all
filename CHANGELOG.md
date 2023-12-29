@@ -7,6 +7,10 @@ If you encounter any bugs, submit through [Github issues](https://github.com/trg
 
 [comment]: # (DO NOT MODIFY. new changelog goes here)
 
+## 22.0 (2023-12-29)
+
+Fixed to work for the newest Anki versions.
+
 ## 21.9.11i107 (2021-09-11)
 
 Fixes for 2.1.46+
