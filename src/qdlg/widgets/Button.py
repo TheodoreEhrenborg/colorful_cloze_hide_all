@@ -17,7 +17,8 @@ from ..stack import qDlgStackTop
 from .Style import StylableWidget
 from .Shortcutable import Shortcutable
 
-from PyQt5.Qt import QPushButton, QKeySequence
+from PyQt6.QtWidgets import QPushButton
+from PyQt6.QtGui import QKeySequence
 
 
 class Button(StylableWidget, Shortcutable):
