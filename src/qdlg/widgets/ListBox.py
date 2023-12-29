@@ -20,7 +20,8 @@ from ..observable import isObservable
 from ..modelHandler import configureModel
 from .Style import StylableWidget
 
-from PyQt5.Qt import QListWidget, QListWidgetItem, Qt, QPoint, QAbstractItemView
+from PyQt6.QtWidgets import QListWidget, QListWidgetItem, QAbstractItemView
+from PyQt6.QtCore import Qt, QPoint
 
 from typing import Union, List, Any
 
