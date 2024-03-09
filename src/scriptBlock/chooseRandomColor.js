@@ -20,7 +20,29 @@ var colors = [
   "#ffc8a2", // orange
 ]
 
+console.log(rand_color);
+console.log("dog")
+
+if (rand_color == null) {
+    previous_color = null
+} else {
+    previous_color = rand_color
+}
+
 var rand_color = colors[Math.floor(Math.random()*colors.length)];
+
+console.log(rand_color);
+console.log(previous_color);
+
+while (previous_color == rand_color) {
+    rand_color = colors[Math.floor(Math.random()*colors.length)];
+}
+
+
+
+console.log(rand_color);
+
+console.log("horse");
 
 // Get all elements in the document
 var allElements = document.querySelectorAll('*');
