@@ -80,6 +80,10 @@ def migrateBackSide(model, backSide, templateUpdated, warnUserUpdate):
     # Functions
     backSide = scrollToClozeSiteScript.apply(backSide)
 
+    readRandomColorScript = ScriptBlock("09c4777b207fefaf", "readRandomColor.js")
+
+    backSide = readRandomColorScript.apply(backSide)
+
     if oldBackSide != backSide:
         templateUpdated[0] = True
 

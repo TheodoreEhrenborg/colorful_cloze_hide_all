@@ -1,5 +1,5 @@
 // Check if "foo" is in localStorage
-if(localStorage.getItem("foo")) {
+if (localStorage.getItem("foo")) {
     // If "foo" exists, increment its value by 1
     localStorage.setItem("foo", parseInt(localStorage.getItem("foo")) + 1);
 } else {
@@ -8,17 +8,6 @@ if(localStorage.getItem("foo")) {
 }
 console.log( localStorage.getItem("foo") );
 
-
-// Generate a random number between 1 and 100
-var randomNumber = Math.floor(Math.random() * 100) + 1;
-
-// Apply class based on whether the random number is even or odd
-if (randomNumber % 2 === 0) {
-  //console.log(document.getElementById('.CLOZE2_W'))
-
-} else {
- // console.log(document.getElementById('.CLOZE2_W'))
-}
 
 
 var colors = [
@@ -42,3 +31,6 @@ var elementsArray = Array.from(allElements);
 document.querySelectorAll('cloze2_w').forEach(element => {
   element.style.backgroundColor = rand_color;
 });
+
+// Use a random string just in case someone else thought of the same name
+localStorage.setItem("cloze_color_2a19a5b01acc5c9b", rand_color);
