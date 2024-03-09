@@ -30,6 +30,10 @@ def migrateFrontSide(frontSide, templateUpdated, warnUserUpdate):
     # functions
     frontSide = scrollToClozeSiteScript.apply(frontSide)
 
+    chooseRandomColorScript = ScriptBlock("24b425584e93149b", "chooseRandomColor.js")
+
+    frontSide = chooseRandomColorScript.apply(frontSide)
+
     if oldFrontSide != frontSide:
         templateUpdated[0] = True
 
