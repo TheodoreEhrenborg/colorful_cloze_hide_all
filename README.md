@@ -1,3 +1,5 @@
+Forked from https://github.com/tr3mo/cloze_hide_all 
+
 # Cloze (Hide All) FIXED
 
 [![AnkiWeb page](https://img.shields.io/badge/AnkiWeb-addon-blue.svg)](https://ankiweb.net/shared/info/838763277)
