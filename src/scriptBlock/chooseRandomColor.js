@@ -54,3 +54,5 @@ document.querySelectorAll('cloze2_w').forEach(element => {
   element.style.backgroundColor = rand_color;
 });
 
+// Use a random string just in case someone else thought of the same name
+localStorage.setItem("cloze_color_2a19a5b01acc5c9b", rand_color);
